@@ -10,7 +10,7 @@
         "earnedTokenAddress": "0x5ECeBEbCff6CE4c57A2694106c556d67B217DEf7",
         "earnContractAddress": "0x5ECeBEbCff6CE4c57A2694106c556d67B217DEf7",
         "oracle": "lps",
-        "oracleId": "zyberswap-wbtc-weth",
+        "oracleId": "zyberswap-zyb-weth",
         "status": "active",
         "platformId": "zyberswap",
         "assets": [
