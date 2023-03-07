@@ -13,9 +13,74 @@
         "oracleId": "zyberswap-zyb-weth",
         "status": "active",
         "platformId": "zyberswap",
+        "tokenAmmId": "arbitrum-zyberswap",
         "assets": [
             "ZYB",
             "WETH"
+        ],
+        "risks": [
+            "COMPLEXITY_LOW",
+            "BATTLE_TESTED",
+            "IL_HIGH",
+            "MCAP_SMALL",
+            "CONTRACTS_VERIFIED"
+        ],
+        "strategyTypeId": "lp",
+        "buyTokenUrl": "https://app.zyberswap.io/exchange/swap?inputCurrency=0x82aF49447D8a07e3bd95BD0d56f35241523fBab1&outputCurrency=0x3B475F6f2f41853706afc9Fa6a6b8C5dF1a2724",
+        "addLiquidityUrl": "https://app.zyberswap.io/exchange/add/ETH",
+        "network": "arbitrum",
+        "createdAt": 1678104600
+    },
+    {
+        "id": "zyberswap-zyb-usdc",
+        "name": "ZYB-USDC LP",
+        "token": "ZYB-USDC LP",
+        "tokenAddress": "0x3eC0eddCd1e25025077327886A78133589082fB2",
+        "tokenDecimals": 18,
+        "tokenProviderId": "zyberswap",
+        "earnedToken": "TestZYB-USDC",
+        "earnedTokenAddress": "0x5ECeBEbCff6CE4c57A2694106c556d67B217DEf7",
+        "earnContractAddress": "0x5ECeBEbCff6CE4c57A2694106c556d67B217DEf7",
+        "oracle": "lps",
+        "oracleId": "zyberswap-zyb-usdc",
+        "status": "active",
+        "platformId": "zyberswap",
+        "tokenAmmId": "arbitrum-zyberswap",
+        "assets": [
+            "ZYB",
+            "USDC"
+        ],
+        "risks": [
+            "COMPLEXITY_LOW",
+            "BATTLE_TESTED",
+            "IL_HIGH",
+            "MCAP_SMALL",
+            "CONTRACTS_VERIFIED"
+        ],
+        "strategyTypeId": "lp",
+        "buyTokenUrl": "https://app.zyberswap.io/exchange/swap?inputCurrency=0x82aF49447D8a07e3bd95BD0d56f35241523fBab1&outputCurrency=0x3B475F6f2f41853706afc9Fa6a6b8C5dF1a2724",
+        "addLiquidityUrl": "https://app.zyberswap.io/exchange/add/ETH",
+        "network": "arbitrum",
+        "createdAt": 1678104600
+    },
+    {
+        "id": "zyberswap-weth-usdc",
+        "name": "ETH-USDC LP",
+        "token": "ETH-USDC LP",
+        "tokenAddress": "0x8b8149Dd385955DC1cE77a4bE7700CCD6a212e65",
+        "tokenDecimals": 18,
+        "tokenProviderId": "zyberswap",
+        "earnedToken": "TestWETH-USDC",
+        "earnedTokenAddress": "0x5ECeBEbCff6CE4c57A2694106c556d67B217DEf7",
+        "earnContractAddress": "0x5ECeBEbCff6CE4c57A2694106c556d67B217DEf7",
+        "oracle": "lps",
+        "oracleId": "zyberswap-weth-usdc",
+        "status": "active",
+        "platformId": "zyberswap",
+        "tokenAmmId": "arbitrum-zyberswap",
+        "assets": [
+            "WETH",
+            "USDC"
         ],
         "risks": [
             "COMPLEXITY_LOW",
