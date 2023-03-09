@@ -128,5 +128,38 @@
         "removeLiquidityUrl": "https://www.sushi.com/earn/arb1:0xb7e50106a5bd3cf21af210a755f9c8740890a8c9/remove",
         "network": "arbitrum",
         "createdAt": 1639146591
+    },
+    {
+        "id": "curve-arb-tricrypto",
+        "name": "TriCrypto",
+        "token": "crv3crypto",
+        "tokenAddress": "0x8e0B8c8BB9db49a46697F3a5Bb8A308e744821D2",
+        "tokenDecimals": 18,
+        "tokenProviderId": "curve",
+        "earnedToken": "Test-CurveTriCrypto",
+        "earnedTokenAddress": "0x8f4919012403eAa5Db75c5D43b85F6724c25c9aA",
+        "earnContractAddress": "0x8f4919012403eAa5Db75c5D43b85F6724c25c9aA",
+        "oracle": "lps",
+        "oracleId": "curve-arb-tricrypto",
+        "status": "active",
+        "platformId": "convex",
+        "assets": [
+            "USDT",
+            "WBTC",
+            "ETH"
+        ],
+        "risks": [
+            "COMPLEXITY_LOW",
+            "BATTLE_TESTED",
+            "IL_LOW",
+            "MCAP_LARGE",
+            "AUDIT",
+            "CONTRACTS_VERIFIED"
+        ],
+        "strategyTypeId": "multi-lp",
+        "addLiquidityUrl": "https://curve.fi/#/arbitrum/pools/tricrypto/deposit",
+        "removeLiquidityUrl": "https://curve.fi/#/arbitrum/pools/tricrypto/withdraw",
+        "network": "arbitrum",
+        "createdAt": 1669709222
     }
 ]
