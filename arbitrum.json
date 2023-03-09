@@ -161,5 +161,43 @@
         "removeLiquidityUrl": "https://curve.fi/#/arbitrum/pools/tricrypto/withdraw",
         "network": "arbitrum",
         "createdAt": 1669709222
+    },
+    {
+        "id": "gmx-arb-glp",
+        "name": "GLP",
+        "token": "GLP",
+        "tokenAddress": "0x5402B5F40310bDED796c7D0F3FF6683f5C0cFfdf",
+        "tokenDecimals": 18,
+        "tokenProviderId": "gmx",
+        "earnedToken": "testGMX-GLP",
+        "earnedTokenAddress": "0x8d9697a174324686524F292d4123192c8dFE37a6",
+        "earnContractAddress": "0x8d9697a174324686524F292d4123192c8dFE37a6",
+        "oracle": "lps",
+        "oracleId": "gmx-arb-glp",
+        "status": "active",
+        "platformId": "gmx",
+        "assets": [
+            "WETH",
+            "WBTC",
+            "LINK",
+            "UNI",
+            "USDC",
+            "USDT",
+            "DAI",
+            "FRAX"
+        ],
+        "risks": [
+            "COMPLEXITY_LOW",
+            "BATTLE_TESTED",
+            "IL_NONE",
+            "MCAP_MEDIUM",
+            "AUDIT",
+            "CONTRACTS_VERIFIED"
+        ],
+        "strategyTypeId": "glp-gmx",
+        "addLiquidityUrl": "https://app.gmx.io/#/buy_glp/?ref=beefy",
+        "removeLiquidityUrl": "https://app.gmx.io/#/buy_glp/#redeem",
+        "network": "arbitrum",
+        "createdAt": 1666793250
     }
 ]
