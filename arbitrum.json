@@ -163,6 +163,70 @@
         "createdAt": 1669709222
     },
     {
+        "id": "curve-arb-2pool",
+        "name": "USDC/USDT",
+        "token": "2CRV",
+        "tokenAddress": "0x7f90122BF0700F9E7e1F688fe926940E8839F353",
+        "tokenDecimals": 18,
+        "tokenProviderId": "curve",
+        "earnedToken": "Test-Curve2Pool",
+        "earnedTokenAddress": "0xcEfEfdDf8253a8508BBB8D7f55Dc374A1dC8a122",
+        "earnContractAddress": "0xcEfEfdDf8253a8508BBB8D7f55Dc374A1dC8a122",
+        "oracle": "lps",
+        "oracleId": "curve-arb-2pool",
+        "status": "active",
+        "platformId": "convex",
+        "assets": [
+            "USDT",
+            "USDC"
+        ],
+        "risks": [
+            "COMPLEXITY_LOW",
+            "BATTLE_TESTED",
+            "IL_NONE",
+            "MCAP_LARGE",
+            "AUDIT",
+            "CONTRACTS_VERIFIED"
+        ],
+        "strategyTypeId": "lp",
+        "addLiquidityUrl": "https://curve.fi/#/arbitrum/pools/2pool/deposit",
+        "removeLiquidityUrl": "https://curve.fi/#/arbitrum/pools/2pool/withdraw",
+        "network": "arbitrum",
+        "createdAt": 1669709222
+    },
+    {
+        "id": "curve-arb-f-wsteth",
+        "name": "wstETH-ETH",
+        "token": "wstETHCRV",
+        "tokenAddress": "0xDbcD16e622c95AcB2650b38eC799f76BFC557a0b",
+        "tokenDecimals": 18,
+        "tokenProviderId": "curve",
+        "earnedToken": "Test-CurveWSTETH",
+        "earnedTokenAddress": "0xC23f562802A030173748f9A7131d7860bCde67Aa",
+        "earnContractAddress": "0xC23f562802A030173748f9A7131d7860bCde67Aa",
+        "oracle": "lps",
+        "oracleId": "curve-arb-f-wsteth",
+        "status": "active",
+        "platformId": "curve",
+        "assets": [
+            "wstETH",
+            "ETH"
+        ],
+        "risks": [
+            "COMPLEXITY_LOW",
+            "BATTLE_TESTED",
+            "IL_NONE",
+            "MCAP_LARGE",
+            "AUDIT",
+            "CONTRACTS_VERIFIED"
+        ],
+        "strategyTypeId": "multi-lp",
+        "addLiquidityUrl": "https://curve.fi/#/arbitrum/pools/wsteth/deposit",
+        "removeLiquidityUrl": "https://curve.fi/#/arbitrum/pools/wsteth/withdraw",
+        "network": "arbitrum",
+        "createdAt": 1668590265
+    },
+    {
         "id": "gmx-arb-glp",
         "name": "GLP",
         "token": "GLP",
