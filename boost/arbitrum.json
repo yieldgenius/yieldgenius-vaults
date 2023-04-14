@@ -1,0 +1,19 @@
+[
+  {
+    "id": "zyberswap-zyb-weth-zyb",
+    "poolId": "zyberswap-zyb-weth",
+    "name": "Zyber",
+    "assets": ["ZYB", "WETH"],
+    "tokenAddress": "0xf69223B75D9CF7c454Bb44e30a3772202bEE72CF",
+    "earnedToken": "USDC",
+    "earnedTokenDecimals": 18,
+    "earnedTokenAddress": "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8",
+    "earnContractAddress": "0xf7Ce44Ca8314D3C7D1449Fe02E8bB15E39909F0e",
+    "earnedOracle": "tokens",
+    "earnedOracleId": "USDC",
+    "partnership": true,
+    "status": "active",
+    "isMooStaked": true,
+    "partners": ["zyb-eth"]
+  }
+]
