@@ -137,7 +137,7 @@
         "earnedToken": "YGZYB-3pool",
         "earnedTokenAddress": "0x57a58ab7A9C6765743dcc23d7548735F9eb18663",
         "earnContractAddress": "0x57a58ab7A9C6765743dcc23d7548735F9eb18663",
-        "oracle": "lps",
+        "oracle": "tokens",
         "oracleId": "zyberswap-3pool",
         "status": "active",
         "platformId": "zyberswap",
