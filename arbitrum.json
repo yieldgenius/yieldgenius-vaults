@@ -301,7 +301,7 @@
     "earnedToken": "YGWBTC-WETH-USDC",
     "earnedTokenAddress": "0x1D4bE1F298e0b1015B3f3FfB13D9c18D82dC1b52",
     "earnContractAddress": "0x1D4bE1F298e0b1015B3f3FfB13D9c18D82dC1b52",
-    "oracle": "lps",
+    "oracle": "tokens",
     "oracleId": "balancer-wbtc-eth-usdc",
     "status": "active",
     "platformId": "balancer",
