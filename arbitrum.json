@@ -129,7 +129,7 @@
   },
   {
     "id": "zyberswap-3pool",
-    "name": "ZYB-3pool LP v2",
+    "name": "ZYB-3pool LP Stable AMM",
     "token": "ZYB-3pool LP v2",
     "tokenAddress": "0x1A90A043751A364447110FF95CCa05AE752d85BE",
     "tokenDecimals": 18,
