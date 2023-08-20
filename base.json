@@ -118,5 +118,37 @@
     "removeLiquidityUrl": "https://baseswap.fi/remove/0x4200000000000000000000000000000000000006/0xd9aAEc86B65D86f6A7B5B1b0c42FFA531710b6CA",
     "network": "base",
     "createdAt": 1691178398
+  },
+  {
+    "id": "alienbase-cbeth-weth",
+    "name": "cbETH-ETH LP",
+    "token": "cbETH-ETH LP",
+    "tokenAddress": "0x9BB646BF0F4Da44bfaF3d899e774DE065731EDFe",
+    "tokenDecimals": 18,
+    "tokenProviderId": "alienbase",
+    "tokenAmmId": "base-alienbase",
+    "earnedToken": "yg-alien-cbETH-ETH",
+    "earnedTokenAddress": "0xeF4F0dcdFB6c01913aB81EdE982F2b4f63b2b50b",
+    "earnContractAddress": "0xeF4F0dcdFB6c01913aB81EdE982F2b4f63b2b50b",
+    "oracle": "lps",
+    "oracleId": "alienbase-cbeth-weth",
+    "status": "active",
+    "platformId": "alienbase",
+    "assets": [
+      "cbETH",
+      "WETH"
+    ],
+    "risks": [
+      "COMPLEXITY_LOW",
+      "BATTLE_TESTED",
+      "IL_NONE",
+      "MCAP_LARGE",
+      "CONTRACTS_VERIFIED"
+    ],
+    "strategyTypeId": "lp",
+    "addLiquidityUrl": "https://app.alienbase.xyz/add/BNB/0x2Ae3F1Ec7F1F5012CFEab0185bfc7aa3cf0DEc22",
+    "removeLiquidityUrl": "https://app.alienbase.xyz/remove/BNB/0x2Ae3F1Ec7F1F5012CFEab0185bfc7aa3cf0DEc22",
+    "network": "base",
+    "createdAt": 1691865365
   }
 ]
